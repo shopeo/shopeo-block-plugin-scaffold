@@ -1,6 +1,5 @@
 # Shopeo Block Plugin Scaffold
 
-
 ## Depend Tools
 
 - https://developer.wordpress.org/block-editor/
