@@ -30,5 +30,10 @@
 		"rtlcss": "^4.1.1",
 		"sass": "^1.69.5",
 		"sass-loader": "^13.3.2"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^12.13.0",
+		"@wordpress/blocks": "^12.22.0",
+		"@wordpress/i18n": "^4.45.0"
 	}
 }
