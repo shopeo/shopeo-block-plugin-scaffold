@@ -74,3 +74,27 @@ add_action( 'wp_enqueue_scripts', function () {
 		'ajax_url' => admin_url( 'admin-ajax.php' )
 	) );
 } );
+
+if ( ! function_exists( 'shopeo_block_plugin_scaffold_register_blocks' ) ) {
+	function shopeo_block_plugin_scaffold_register_blocks() {
+		$blocks = array(
+			'dynamic' => 'shopeo_block_plugin_scaffold_dynamic_block_test',
+			'static'  => ''
+		);
+		foreach ( $blocks as $dir => $render_callback ) {
+			$args = array();
+			if ( ! empty( $render_callback ) ) {
+				$args['render_callback'] = $render_callback;
+			}
+			register_block_type( __DIR__ . '/blocks/dist/' . $dir, $args );
+		}
+	}
+}
+
+add_action( 'init', 'shopeo_block_plugin_scaffold_register_blocks' );
+
+if ( ! function_exists( 'shopeo_block_plugin_scaffold_dynamic_block_test' ) ) {
+	function shopeo_block_plugin_dynamic_block_test( $attributes ) {
+
+	}
+}

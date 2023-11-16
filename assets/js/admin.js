@@ -167,7 +167,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkshopeo_plugin_scaffold"] = self["webpackChunkshopeo_plugin_scaffold"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkshopeo_block_plugin_scaffold"] = self["webpackChunkshopeo_block_plugin_scaffold"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();

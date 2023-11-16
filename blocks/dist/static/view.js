@@ -1,0 +1,1 @@
+console.log("Hello World! (from shopeo-static block)");
