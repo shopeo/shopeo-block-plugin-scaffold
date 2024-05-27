@@ -49,12 +49,12 @@
 
 ```shell
 cd blocks/src
-npx @wordpress/create-block --no-plugin
+npx @wordpress/create-block --no-plugin block-name
 ```
 
 ## Create Dynamic Block
 
 ```shell
 cd blocks/src
-npx @wordpress/create-block --no-plugin dynamic
+npx @wordpress/create-block --no-plugin --variant dynamic block-name
 ```
