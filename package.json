@@ -30,7 +30,8 @@
 		"resolve-url-loader": "^5.0.0",
 		"rtlcss": "^4.1.1",
 		"sass": "^1.69.5",
-		"sass-loader": "^13.3.2"
+		"sass-loader": "^13.3.2",
+		"wp-readme-to-markdown": "^1.0.1"
 	},
 	"dependencies": {
 		"@wordpress/block-editor": "^12.26.0",
