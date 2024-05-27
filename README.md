@@ -28,7 +28,6 @@
 - https://github.com/TGMPA/TGM-Plugin-Activation
 - https://github.com/ediamin/wp-readme-to-markdown
 - https://developer.wordpress.org/cli/commands/i18n/make-pot/
-s
 
 ## WP Readme
 
@@ -45,7 +44,6 @@ s
 - https://developer.wordpress.org/themes/advanced-topics/build-process/
 - https://github.com/WordPress/gutenberg
 - https://prettier.io/
--
 
 ```shell
 cd blocks/src
