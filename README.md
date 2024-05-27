@@ -45,7 +45,16 @@
 - https://github.com/WordPress/gutenberg
 - https://prettier.io/
 
+## Create Static Block
+
 ```shell
 cd blocks/src
 npx @wordpress/create-block --no-plugin
+```
+
+## Create Dynamic Block
+
+```shell
+cd blocks/src
+npx @wordpress/create-block --no-plugin dynamic
 ```
