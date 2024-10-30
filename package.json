@@ -22,15 +22,15 @@
 	"homepage": "https://shopeo.cn",
 	"license": "MIT",
 	"devDependencies": {
-		"@wordpress/scripts": "^27.9.0",
-		"autoprefixer": "^10.4.16",
+		"@wordpress/scripts": "^30.3.0",
+		"autoprefixer": "^10.4.20",
 		"laravel-mix": "^6.0.49",
-		"postcss": "^8.4.31",
-		"postcss-import": "^15.1.0",
+		"postcss": "^8.4.47",
+		"postcss-import": "^16.1.0",
 		"resolve-url-loader": "^5.0.0",
-		"rtlcss": "^4.1.1",
-		"sass": "^1.69.5",
-		"sass-loader": "^13.3.2",
+		"rtlcss": "^4.3.0",
+		"sass": "^1.80.5",
+		"sass-loader": "^16.0.2",
 		"wp-readme-to-markdown": "^1.0.1"
 	},
 	"dependencies": {
